@@ -1,0 +1,463 @@
+/* HEADER */
+
+.home header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home .top-header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 2px;
+    margin-bottom: 0px;
+    padding: 8px;
+}
+
+.home .logo {
+    display: flex;
+    width: 50%;
+    box-shadow: none;
+    padding: 8px;
+}
+
+.home .menu {
+    display: none;
+}
+
+.home .searchBar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    max-width: 50%;
+    position: relative;
+}
+
+.home input {
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+.home .lupita {
+    display: flex;
+    width: 15px;
+    max-width: 10%;
+    height: 18px;
+    max-height: 70px;
+    min-height: 10px;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.home .burgerMenu {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--color-celeste);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    margin: 5%;
+    color: var(--color-gris-claro);
+    border-radius: 7px;
+}
+
+.home .subtitulo .p, i{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px auto;
+}
+
+.home .banner {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+
+/* PRODUCTS */
+
+.home img {
+    width: 100%;
+    max-width: 75%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border-radius: 5px;
+}
+
+/* Producto 1 */
+
+.home .product1 .div1{
+    width: 100%;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.home .div1 {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+
+/* Producto 2 */
+
+.home .product2 .div2{
+    width: 100%;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.home .div2 {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+
+/* Producto 3 */
+
+.home .product3 .div3{
+    width: 100%;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.home .div3 {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+
+/* Producto 4 */
+
+.home .product4 .div4{
+    width: 100%;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.home .div4 {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+
+.home h2, h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home article {
+    margin: 20px auto;
+}
+
+.home div span{
+    width: 100%;
+    display: flex;
+}
+
+/* Camioncito */
+
+.home .camioncito i{
+    display: flex;
+    position: relative;
+    bottom: 4px;
+}
+
+.home article .camioncito {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 88%;
+    bottom: 55px;
+}
+
+.home h2 {
+    display: flex;
+    font-weight: 200;
+    width: 30%;
+    justify-content: flex-start;
+}
+
+.home h3 {
+    display: flex;
+    font-weight: 100;
+    color: #39b54a;
+    width: 70%;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+footer i {
+    color: var(--color-celeste);
+    font-size: 30px;
+    padding: 15px;
+}
+
+footer p {
+    padding: 10px;
+}
+
+
+/* Tablets */
+
+@media (min-width: 743px) {
+
+    /* Header */
+
+.home header {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+}
+
+.home .top-page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.home .logo {
+    display: flex;
+    width: 35%;
+    height: auto;
+}
+
+.home .top-header {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-top: 0px;
+}
+
+.home .searchBar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home .searchBar form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: fit-content;
+    align-items: center;
+}
+
+.home .lupita {
+    display: flex;
+    width: 15px;
+    max-width: 15px;
+    height: 18px;
+    position: relative;
+    top: 39%;
+    left: 88%;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+}
+
+.home .burgerMenu {
+    display: none;
+}
+
+.home .menu {
+    display: flex;
+    width: 100%;
+}
+
+.home ul, li, a {
+    display: flex;
+    align-items: flex-end;
+    padding: 3px;
+}
+
+.home nav a i {
+    display: flex;
+    width: 10%;
+    height: 10px;
+    padding: 3px;
+}
+
+.home .nav-menu {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.home .icon-menu {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+    /* Products */
+
+.home h1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home main, section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.home .product1 {
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.home .product2 {
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.home .product3 {
+    width: 50%;
+    padding: 0px 20px;
+}
+
+.home .product4 {
+    width: 50%;
+    padding: 0px 20px;
+}
+
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+    /* Header */
+
+.home input {
+    display: flex;
+    width: 250px;
+}
+
+.home .top-page {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home .top-header {
+    justify-content: flex-start;
+}
+
+.home .nav-menu {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.home .icon-menu {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.home .banner {
+    margin: 0px;
+}
+
+    /* Products */
+
+.home .product1 {
+    width: 25%;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.home .product2 {
+    width: 25%;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.home .product3 {
+    width: 25%;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.home .product4 {
+    width: 25%;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.home div .camioncito {
+    left: 80%;
+    bottom: 60px;
+}
+
+.home div h2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.home div h3 {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    position: relative;
+    left: 5px;
+}
+
+}
